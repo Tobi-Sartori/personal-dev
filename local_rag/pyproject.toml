@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "local-rag"
+version = "0.1.0"
+description = "local rag using sqlite and ollama"
+authors = ["Tobias Sartori <tobias.silva@willowtreeapps.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+ollama = "^0.3.3"
+fastapi = "^0.115.0"
+pydentic = "^0.0.1.dev3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
